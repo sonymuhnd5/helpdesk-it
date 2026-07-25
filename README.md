@@ -1,33 +1,32 @@
 # IT Help Desk Management System
 
-نظام إدارة بلاغات الدعم الفني مكتوب بـ Python.
+A ticket management system for IT support teams, built with Python.
 
-## الميزات
+## Features
 
-- إنشاء تذاكر دعم فني
-- عرض جميع التذاكر مع فلتر
-- البحث في التذاكر
-- إغلاق التذاكر
-- تصدير التذاكر إلى Excel
-- استيراد التذاكر من Excel
-- واجهة مستخدم احترافية (Dark Mode)
+- Create support tickets with priority levels
+- View all tickets with status/priority filters
+- Search tickets across all fields
+- Close resolved tickets with timestamp tracking
+- Export tickets to Excel (.xlsx)
+- Import tickets from Excel (.xlsx)
+- Modern dark-themed UI with CustomTkinter
 
-## التثبيت
+## Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## التشغيل
+## Usage
 
 ```bash
 python main.py
 ```
 
-## التقنيات
+## Tech Stack
 
-- Python
-- CustomTkinter
-- SQLite
-- Pandas
-- OpenPyXL
+- Python 3.x
+- CustomTkinter (UI)
+- SQLite (Database)
+- Pandas + OpenPyXL (Excel support)
