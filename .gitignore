@@ -1,0 +1,4 @@
+helpdesk.db
+__pycache__/
+*.pyc
+PROJECT_GUIDE.html
